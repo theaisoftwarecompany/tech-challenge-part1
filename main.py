@@ -16,8 +16,10 @@ def load_environment():
 
 def main():
     """Haupteinstiegspunkt des Programms."""
-    openai_api_key = load_environment()
-    print(f"OpenAI API Key: {openai_api_key}")
+    load_environment()
+
+    ## program logic here
+    
 
 if __name__ == "__main__":
     main()

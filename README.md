@@ -12,8 +12,14 @@ pip install -r requirements.txt
 
 ## Verwendung
 
+So startest du das Projekt:
+
 ```bash
 python main.py
 ```
 
 ## Daten
+- Die Rohdaten-Datei "crm_export.csv" befindet sich im Ordner /data und wartet darauf, von euch bereinigt zu werden.
+
+## Dokumentationen
+- Anleitung für OpenAPI
