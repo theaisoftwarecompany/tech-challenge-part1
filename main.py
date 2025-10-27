@@ -10,29 +10,14 @@ from dotenv import load_dotenv
 def load_environment():
     """Lädt Umgebungsvariablen aus der .env Datei."""
     load_dotenv()
-    app_name = os.getenv("APP_NAME", "tech-challenge")
-    environment = os.getenv("ENVIRONMENT", "development")
-    return app_name, environment
-
-
-def initialize_data_directory():
-    """Stellt sicher, dass das Datenverzeichnis existiert."""
-    data_dir = Path("data")
-    data_dir.mkdir(exist_ok=True)
-    return data_dir
+    openai_api_key = os.getenv("OPENAI_API_KEY")
+    return openai_api_key
 
 
 def main():
     """Haupteinstiegspunkt des Programms."""
-    app_name, environment = load_environment()
-    data_dir = initialize_data_directory()
-    
-    print(f"Anwendung: {app_name}")
-    print(f"Umgebung: {environment}")
-    print(f"Datenverzeichnis: {data_dir.absolute()}")
-    print("\nBereit für Implementierung...")
-
+    openai_api_key = load_environment()
+    print(f"OpenAI API Key: {openai_api_key}")
 
 if __name__ == "__main__":
     main()
-
