@@ -1,5 +1,5 @@
-﻿CustomerId;First Name;Last name;Company;Country;City;Timezone;Language;Optin;Email;FunnelStage;LifeTimeValue
-1;Matthias;Schroeder;HelixBau;Germany;Berlin;Europe/Berlin;German;yes;matthias.schroeder@helixbau.de;lead;0
+CustomerId;First Name;Last name;Company;Country;City;Timezone;Language;Optin;Email;FunnelStage;LifeTimeValue
+1;Matthias;Schroeder;HelixBau;Germany;Berlin;Europe/Berlin;German;yes;;lead;0
 2;Emily;Blake;SkyNetics;United Kingdom;London;Europe/London;English;yes;emily.blake@skynetics.co.uk;lead;0
 3;Antonio;Ramirez;SolucionesNova;Spain;Madrid;Europe/Madrid;Spanish;yes;antonio.ramirez@solucionesnova.es;customer;780
 4;Sophie;Leroux;CielBleu;France;Lyon;Europe/Paris;;yes;sophie.leroux@cielbleu.fr;lead;0
@@ -8,144 +8,94 @@
 7;Amelia;Johnson;Nextify;United States;New York;America/New_York;English;no;amelia.johnson@nextify.us;lead;0
 8;Oliver;Vogel;Datacircle;Austria;Vienna;Europe/Vienna;German;yes;oliver.vogel@datacircle.at;marketing-qualified;0
 9;Elena;Rossi;Innovare;Italy;Milan;Europe/Rome;;yes;elena.rossi@innovare.it;lead;0
-10;Markus;Schmid;AlpenWorks;Switzerland;Zurich;Europe/Zurich;German;yes;markus.schmid@alpenworks.ch;lead;0
-11;Anna;Maier;Agilica;Germany;Hamburg;Europe/Berlin;;no;anna.maier@agilica.de;marketing-qualified;0
-12;David;Wong;BlueWave;Singapore;Singapore;Asia/Singapore;English;yes;david.wong@bluewave.sg;lead;0
-13;Julia;Kowalska;Softpoint;Poland;Warsaw;Europe/Warsaw;Polish;yes;julia.kowalska@softpoint.pl;lead;0
-14;Lucas;Da Silva;InovaBrasil;Brazil;São Paulo;America/Sao_Paulo;Portuguese_BR;no;lucas.dasilva@inovabrasil.com.br;lead;0
-15;Nina;Meyer;Techne;Germany;Düsseldorf;Europe/Berlin;German;yes;nina.meyer@techne.de;lead;0
-16;James;Smith;Corelogic;United States;Chicago;America/Chicago;English;yes;james.smith@corelogic.us;sales-qualified;0
+10;Anna;Maier;Agilica;Germany;Hamburg;Europe/Berlin;;no;anna.maier@agilica.de;marketing-qualified;0
+11;David;Wong;BlueWave;Singapore;Singapore;Asia/Singapore;English;yes;;lead;0
+12;Julia;Kowalska;Softpoint;Poland;Warsaw;Europe/Warsaw;Polish;yes;;lead;0
+13;Lucas;Da Silva;InovaBrasil;Brazil;São Paulo;America/Sao_Paulo;Portuguese_BR;no;lucas.dasilva@inovabrasil.com.br;lead;0
+14;Nina;Meyer;Techne;Germany;Düsseldorf;Europe/Berlin;German;yes;;lead;0
+15;James;Smith;Corelogic;United States;Chicago;America/Chicago;English;yes;james.smith@corelogic.us;sales-qualified;0
+16;Charlotte;Martin;OpusDigital;France;Paris;Europe/Paris;French;;charlotte.martin@opusdigital.fr;lead;0
 17;Charlotte;Martin;OpusDigital;France;Paris;Europe/Paris;French;;charlotte.martin@opusdigital.fr;lead;0
-18;Charlotte;Martin;OpusDigital;France;Paris;Europe/Paris;French;;charlotte.martin@opusdigital.fr;lead;0
-19;Victor;Schneider;AlpinaSys;Switzerland;Bern;Europe/Zurich;;yes;victor.schneider@alpinasys.ch;customer;450
-20;Jana;Bauer;Luminex;Germany;Stuttgart;Europe/Berlin;German;yes;jana.bauer@luminex.de;lead;0
-21;Samuel;Nguyen;VistaCore;Singapore;Singapore;Asia/Singapore;English;yes;samuel.nguyen@vistacore.sg;marketing-qualified;0
-22;Emma;Clarke;Redline;United Kingdom;Manchester;Europe/London;English;no;;lead;0
-23;Julia;Richter;Infinitum;Germany;Hamburg;Europe/Berlin;;yes;julia.richter@infinitum.de;lead;0
-24;Marta;Santos;Visiomind;Brazil;Rio de Janeiro;America/Sao_Paulo;Portuguese_BR;yes;;lead;0
-25;Leon;Weber;HelixBau;Germany;Bremen;Europe/Berlin;;yes;;marketing-qualified;0
-26;Jan;Nowak;Softpoint;Poland;Krakow;Europe/Warsaw;Polish;no;jan.nowak@softpoint.pl;lead;0
-27;Emma;Andersson;NordicNow;Sweden;Stockholm;Europe/Stockholm;Swedish;yes;emma.andersson@nordicnow.se;lead;0
-28;Sebastian;Huber;Datacircle;Austria;Graz;Europe/Vienna;German;yes;sebastian.huber@datacircle.at;customer;3400
-29;Alina;Voigt;Futurelytics;Germany;Leipzig;Europe/Berlin;German;;alina.voigt@futurelytics.de;customer;400
-30;Oliver;Brown;Nextify;United States;San Francisco;America/Los_Angeles;English;yes;oliver.brown@nextify.us;lead;0
-31;Marc;Fischer;AlpenWorks;Switzerland;Basel;Europe/Zurich;German;yes;marc.fischer@alpenworks.ch;marketing-qualified;0
-32;Isabella;Rossi;Innovare;Italy;Rome;Europe/Rome;Italian;yes;isabella.rossi@innovare.it;lead;0
-33;Lars;Müller;HelixBau;Germany;Hannover;Europe/Berlin;German;yes;lars.mueller@helixbau.de;lead;0
-34;Anna;Schulz;Corelogic;Germany;Berlin;Europe/Berlin;;no;anna.schulz@corelogic.de;lead;0
-35;Maximilian;Becker;Techne;Germany;Nuremberg;Europe/Berlin;;yes;maximilian.becker@techne.de;customer;1920
-36;Grace;Wilson;Redline;United Kingdom;Bristol;Europe/London;English;yes;grace.wilson@redline.co.uk;lead;0
-37;Simone;Martins;InovaBrasil;Brazil;Brasília;America/Sao_Paulo;Portuguese_BR;yes;;sales-qualified;0
-38;Andreas;Hofer;Datacircle;Austria;Wiener Neustadt;Europe/Vienna;German;yes;andreas.hofer@datacircle.at;lead;0
-39;Hannah;Lehmann;Luminex;Germany;Munich;Europe/Berlin;;yes;hannah.lehmann@luminex.de;customer;2980
-40;Claire;Dupont;CielBleu;France;Toulouse;Europe/Paris;;yes;claire.dupont@cielbleu.fr;lead;0
-41;Eric;Robinson;Nextify;United States;Dallas;America/Chicago;;no;eric.robinson@nextify.us;lead;0
-42;Janine;Meier;Agilica;Germany;Dortmund;Europe/Berlin;German;yes;janine.meier@agilica.de;lead;0
-43;Marcel;Schmidt;AlpenWorks;Switzerland;Lugano;Europe/Zurich;German;;;customer;31500
-44;Patricia;Evans;SkyNetics;United Kingdom;Glasgow;Europe/London;English;yes;patricia.evans@skynetics.co.uk;lead;0
-45;Eva;Steiner;Futurelytics;Austria;Salzburg;;German;yes;eva.steiner@futurelytics.at;lead;0
-46;Daniel;Blum;Infinitum;Germany;Dresden;;German;no;daniel.blum@infinitum.de;marketing-qualified;0
-47;Natalia;Kaczmarek;DataSmart;Poland;Wroclaw;;Polish;yes;natalia.kaczmarek@datasmart.pl;lead;0
-48;Alex;Harris;Corelogic;United States;Los Angeles;;English;yes;alex.harris@corelogic.us;marketing-qualified;0
-49;Peter;Bailey;Redline;United Kingdom;Leeds;Europe/London;English;yes;peter.bailey@redline.co.uk;lead;0
-50;Leonie;Weiss;Agilica;Germany;Bonn;Europe/Berlin;German;yes;leonie.weiss@agilica.de;lead;0
-51;Ramiro;Oliveira;Visiomind;Brazil;Fortaleza;America/Fortaleza;Portuguese_BR;yes;ramiro.oliveira@visiomind.com.br;customer;2330
-52;Anna;Lund;Scanditec;Sweden;Gothenburg;;Swedish;yes;anna.lund@scanditec.se;lead;0
-53;Isabel;Garcia;SolucionesNova;Spain;Valencia;Europe/Madrid;Spanish;yes;isabel.garcia@solucionesnova.es;lead;0
-54;Samuel;Krüger;HelixBau;Germany;Cologne;Europe/Berlin;German;no;samuel.krueger@helixbau.de;sales-qualified;0
-55;Marie;Fontaine;CielBleu;France;Nice;;French;yes;marie.fontaine@cielbleu.fr;customer;540
-56;Jan;Lang;Datacircle;Austria;Innsbruck;Europe/Vienna;German;yes;jan.lang@datacircle.at;lead;0
-57;Martina;Fuchs;AlpenWorks;Switzerland;St. Gallen;Europe/Zurich;German;yes;martina.fuchs@alpenworks.ch;lead;0
-58;Aaron;Murphy;Nextify;United States;Seattle;;English;yes;aaron.murphy@nextify.us;lead;0
-59;Adriana;Moretti;Innovare;Italy;Turin;;Italian;yes;adriana.moretti@innovare.it;marketing-qualified;0
-60;Max;Brandt;Corelogic;Germany;Berlin;Europe/Berlin;German;yes;max.brandt@corelogic.de;lead;0
-61;Nadine;Walter;Luminex;Germany;Karlsruhe;Europe/Berlin;German;yes;nadine.walter@luminex.de;lead;0
-62;Miguel;Hernandez;SolucionesNova;Spain;Seville;Europe/Madrid;Spanish;yes;miguel.hernandez@solucionesnova.es;lead;0
-63;Olga;Kowal;DataSmart;Poland;Poznan;;Polish;yes;olga.kowal@datasmart.pl;lead;0
-64;Fabian;Schwarz;Infinitum;Germany;Berlin;;German;yes;fabian.schwarz@infinitum.de;churned;700
-65;Christian;Brunner;Datacircle;Austria;Linz;;German;yes;christian.brunner@datacircle.at;lead;0
-66;Helena;Weber;Techne;Germany;Stuttgart;Europe/Berlin;;no;helena.weber@techne.de;lead;0
-67;Anja;Graf;Luminex;Germany;Munich;Europe/Berlin;German;yes;anja.graf@luminex.de;lead;0
-68;Frederik;Jones;Redline;United Kingdom;Birmingham;Europe/London;English;yes;frederik.jones@redline.co.uk;lead;0
-69;Christian;;Datacircle;Austria;;;German;yes;christian.brunner@datacircle.at;lead;0
-70;Julien;Morel;OpusDigital;France;Marseille;Europe/Paris;French;yes;julien.morel@opusdigital.fr;lead;0
-71;Alessandro;Bianchi;Innovare;Italy;Naples;Europe/Rome;Italian;yes;alessandro.bianchi@innovare.it;lead;0
-72;Maya;Patel;BlueWave;Singapore;Singapore;Asia/Singapore;English;yes;maya.patel@bluewave.sg;lead;0
-73;Karim;Mohamed;Corelogic;United Kingdom;London;Europe/London;English;yes;karim.mohamed@corelogic.co.uk;marketing-qualified;0
-74;Chiara;Conti;Innovare;Italy;Bologna;Europe/Rome;Italian;yes;chiara.conti@innovare.it;customer;8450
-75;Jonas;Martens;Agilica;Germany;Kiel;Europe/Berlin;German;yes;jonas.martens@agilica.de;lead;0
-76;Emily;Nguyen;VistaCore;Singapore;Singapore;Asia/Singapore;English;yes;emily.nguyen@vistacore.sg;customer;2890
-77;Manuel;Schuster;Luminex;Germany;Erfurt;Europe/Berlin;German;yes;manuel.schuster@luminex.de;lead;0
-78;Oscar;Berg;Scanditec;Sweden;Malmo;Europe/Stockholm;Swedish;yes;oscar.berg@scanditec.se;lead;0
-79;Maria;Hernandez;SolucionesNova;Spain;Barcelona;Europe/Madrid;Spanish;yes;maria.hernandez@solucionesnova.es;marketing-qualified;0
-80;Alexander;Wolf;HelixBau;Germany;Berlin;Europe/Berlin;German;yes;alexander.wolf@helixbau.de;lead;0
-81;Lena;Baumann;Techne;Germany;Bremen;Europe/Berlin;German;yes;lena.baumann@techne.de;lead;0
-82;Patrik;Olsen;NordicNow;Sweden;Uppsala;Europe/Stockholm;Swedish;yes;patrik.olsen@nordicnow.se;lead;0
-83;Andrea;Romano;Innovare;Italy;Florence;Europe/Rome;Italian;yes;andrea.romano@innovare.it;lead;0
-84;Andreia;Ferreira;Visiomind;Brazil;Salvador;America/Bahia;Portuguese_BR;yes;andreia.ferreira@visiomind.com.br;lead;0
-85;Stefan;Graf;Infinitum;Germany;Hamburg;Europe/Berlin;German;yes;stefan.graf@infinitum.de;customer;4180
-86;Jessica;Lopez;SolucionesNova;Spain;Granada;Europe/Madrid;Spanish;yes;jessica.lopez@solucionesnova.es;lead;0
-87;Ina;Huber;Agilica;Austria;Salzburg;Europe/Vienna;German;yes;ina.huber@agilica.at;sales-qualified;0
-88;Rajiv;Patel;BlueWave;India;Bangalore;Asia/Kolkata;English;yes;rajiv.patel@bluewave.in;lead;0
-89;Lea;Schuster;AlpenWorks;Switzerland;Lausanne;Europe/Zurich;German;yes;lea.schuster@alpenworks.ch;lead;0
-90;Andreas;Baumgartner;Luminex;Germany;Halle;Europe/Berlin;German;yes;andreas.baumgartner@luminex.de;lead;0
-91;Julia;Fischer;Infinitum;Germany;Munich;Europe/Berlin;German;yes;julia.fischer@infinitum.de;marketing-qualified;0
-92;Marie;Weber;Techne;Germany;Mannheim;Europe/Berlin;German;yes;marie.weber@techne.de;lead;0
-93;Maxime;Blanc;OpusDigital;France;Bordeaux;Europe/Paris;French;no;maxime.blanc@opusdigital.fr;lead;0
-94;Martina;Schmidt;Datacircle;Austria;Graz;Europe/Vienna;German;yes;;lead;0
-95;Mario;De Vries;NetGent;Netherlands;Amsterdam;Europe/Amsterdam;Dutch;yes;mario.devries@netgent.nl;lead;0
-96;Hanna;Nowak;DataSmart;Poland;Lodz;Europe/Warsaw;Polish;yes;hanna.nowak@datasmart.pl;lead;0
-97;Lucas;Brown;Nextify;United States;Houston;America/Chicago;English;yes;;lead;0
-98;Anna;Müller;HelixBau;Germany;Stuttgart;Europe/Berlin;German;yes;anna.mueller@helixbau.de;churned;23000
-99;Olivia;Smith;SkyNetics;United Kingdom;London;;English;yes;olivia.smith@skynetics.co.uk;lead;0
-100;Emma;Larsson;NordicNow;Sweden;Stockholm;Europe/Stockholm;Swedish;yes;emma.larsson@nordicnow.se;lead;0
-101;Philipp;Schneider;AlpenWorks;Switzerland;Zurich;Europe/Zurich;German;yes;philipp.schneider@alpenworks.ch;lead;0
-102;Stefanie;Huber;Luminex;Germany;Regensburg;Europe/Berlin;German;yes;stefanie.huber@luminex.de;lead;0
-103;Clara;Rossi;Innovare;Italy;Venice;Europe/Rome;Italian;yes;clara.rossi@innovare.it;lead;0
-104;David;Smith;Corelogic;United States;Miami;America/New_York;;no;david.smith@corelogic.us;lead;0
-105;Carla;Sousa;InovaBrasil;Brazil;Curitiba;America/Sao_Paulo;;yes;carla.sousa@inovabrasil.com.br;customer;7200
-106;Manuela;Weiss;Techne;Germany;Hamburg;Europe/Berlin;German;yes;manuela.weiss@techne.de;customer;810
-107;Samuel;Lindberg;Scanditec;Sweden;Helsingborg;Europe/Stockholm;Swedish;yes;samuel.lindberg@scanditec.se;lead;0
-108;Nils;Schulz;Agilica;Germany;Berlin;Europe/Berlin;German;yes;nils.schulz@agilica.de;lead;0
-109;Sofia;Roman;SolucionesNova;Spain;Bilbao;Europe/Madrid;Spanish;yes;sofia.roman@solucionesnova.es;lead;0
-110;Stefan;Gruber;Datacircle;Austria;St. Pölten;Europe/Vienna;German;yes;stefan.gruber@datacircle.at;customer;5400
-111;Tomasz;Nowicki;Softpoint;Poland;Szczecin;Europe/Warsaw;Polish;yes;tomasz.nowicki@softpoint.pl;customer;0
-112;Lucas;Stark;Futurelytics;Germany;Frankfurt;Europe/Berlin;German;yes;lucas.stark@futurelytics.de;customer;7300
-113;Emilia;Brandt;AlpenWorks;Switzerland;Bern;Europe/Zurich;German;yes;;customer;9100
-114;Alice;Brown;SkyNetics;United Kingdom;Brighton;Europe/London;English;yes;alice.brown@skynetics.co.uk;customer;49000
-115;Philipp;Hofer;Datacircle;Austria;Vienna;Europe/Vienna;German;yes;philipp.hofer@datacircle.at;customer;610
-116;Noah;Krüger;HelixBau;Germany;Hamburg;Europe/Berlin;German;yes;noah.krueger@helixbau.de;lead;0
-117;Paul;Anderson;Nextify;United States;Boston;America/New_York;English;yes;paul.anderson@nextify.us;customer;17300
-118;Janine;Schulze;Infinitum;Germany;Dresden;Europe/Berlin;German;yes;janine.schulze@infinitum.de;lead;0
-119;Tatiana;Costa;Visiomind;Brazil;Belo Horizonte;America/Sao_Paulo;Portuguese_BR;yes;tatiana.costa@visiomind.com.br;lead;0
-120;Marie;Schäfer;Futurelytics;Germany;Berlin;Europe/Berlin;German;yes;marie.schaefer@futurelytics.de;lead;0
-121;Petra;Keller;Techne;Austria;Vienna;Europe/Vienna;German;yes;petra.keller@techne.at;marketing-qualified;0
-122;Rebecca;Evans;Corelogic;United Kingdom;Edinburgh;Europe/London;English;yes;rebecca.evans@corelogic.co.uk;lead;0
-123;Priya;Kapoor;BlueWave;India;Mumbai;Asia/Kolkata;English;yes;priya.kapoor@bluewave.in;lead;0
-124;Andreas;Meier;HelixBau;Germany;Berlin;Europe/Berlin;German;yes;;lead;0
-125;Lisa;Weiss;Infinitum;Germany;Bonn;Europe/Berlin;German;yes;;lead;0
-126;Benedikt;Schuster;AlpenWorks;Switzerland;Zurich;Europe/Zurich;;;;customer;12500
-127;Elodie;Martin;OpusDigital;France;Lille;Europe/Paris;French;yes;elodie.martin@opusdigital.fr;lead;0
-128;Paulina;Nowak;DataSmart;Poland;Gdansk;Europe/Warsaw;Polish;yes;paulina.nowak@datasmart.pl;lead;0
-129;Giulia;Moretti;Innovare;Italy;Padua;Europe/Rome;Italian;no;giulia.moretti@innovare.it;lead;0
-130;Thomas;Lutz;Agilica;Germany;Frankfurt;Europe/Berlin;German;yes;thomas.lutz@agilica.de;marketing-qualified;0
-131;Janine;Schulze;Infinitum;Germany;Dresden;Europe/Berlin;German;yes;janine.schulze@infinitum.de;lead;0
-132;Noah;Kruger;HelixBau;Germany;Hamburg;Europe/Berlin;German;yes;noah.krueger@helixbau.de;lead;0
-133;Lina;Fischer;Infinitum;Germany;Munich;Europe/Berlin;German;yes;lina.fischer@infinitum.de;churned;1200
-134;Matteo;Giordano;Innovare;Italy;Turin;Europe/Rome;Italian;yes;matteo.giordano@innovare.it;lead;0
-135;Pascal;Steiner;AlpenWorks;Switzerland;Zug;Europe/Zurich;German;yes;pascal.steiner@alpenworks.ch;lead;0
-136;Lina;Richter;Luminex;Germany;Augsburg;Europe/Berlin;German;yes;;lead;0
-137;Ajay;Reddy;BlueWave;India;Hyderabad;;English;yes;ajay.reddy@bluewave.in;lead;0
-138;Anke;Mayer;Agilica;Germany;Berlin;Europe/Berlin;;yes;anke.mayer@agilica.de;churned;12000
-139;Anna;Schwarz;Techne;Germany;Bremen;Europe/Berlin;German;yes;anna.schwarz@techne.de;lead;0
-140;Erik;Olsson;NordicNow;Sweden;Stockholm;Europe/Stockholm;Swedish;yes;;lead;0
-141;Thomas;Gerber;Datacircle;Austria;Graz;Europe/Vienna;German;yes;thomas.gerber@datacircle.at;lead;0
-142;Sarah;Ngwenya;DataBridge;South Africa;Johannesburg;Africa/Johannesburg;English;yes;sarah.ngwenya@databridge.co.za;customer;41200
-143;Richard;White;Nextify;United States;Denver;;;yes;richard.white@nextify.us;customer;13000
-144;Martina;Schmidt;AlpenWorks;Switzerland;Lucerne;Europe/Zurich;German;yes;martina.schmidt@alpenworks.ch;customer;4200
-145;Jan;Bauer;Techne;Germany;Leipzig;Europe/Berlin;German;yes;jan.bauer@techne.de;lead;0
-146;Monica;Silva;InovaBrasil;Brazil;Recife;America/Recife;Portuguese_BR;yes;monica.silva@inovabrasil.com.br;customer;9900
-147;Elena;Nowak;DataSmart;Poland;Torun;Europe/Warsaw;Polish;yes;elena.nowak@datasmart.pl;lead;0
-148;Vincent;Jacobs;NetGent;Netherlands;Rotterdam;Europe/Amsterdam;Dutch;yes;;lead;0
-149;Silvia;Ribeiro;Visiomind;Brazil;Porto Alegre;America/Sao_Paulo;Portuguese_BR;yes;silvia.ribeiro@visiomind.com.br;churned;32100
-150;Lukas;Lehner;Futurelytics;Austria;Villach;Europe/Vienna;German;yes;lukas.lehner@futurelytics.at;customer;0
+18;Victor;Schneider;AlpinaSys;Switzerland;Bern;Europe/Zurich;;yes;victor.schneider@alpinasys.ch;customer;450
+19;Jana;Bauer;Luminex;Germany;Stuttgart;Europe/Berlin;German;yes;jana.bauer@luminex.de;lead;0
+20;Samuel;Nguyen;VistaCore;Singapore;Singapore;Asia/Singapore;English;yes;;marketing-qualified;0
+21;Sebastian;Huber;Datacircle;Austria;Graz;Europe/Vienna;German;yes;sebastian.huber@datacircle.at;customer;3400
+22;Alina;Voigt;Futurelytics;Germany;Leipzig;Europe/Berlin;German;;alina.voigt@futurelytics.de;customer;400
+23;Oliver;Brown;Nextify;United States;San Francisco;America/Los_Angeles;English;yes;oliver.brown@nextify.us;lead;0
+24;Marc;Fischer;AlpenWorks;Switzerland;Basel;Europe/Zurich;German;yes;marc.fischer@alpenworks.ch;marketing-qualified;0
+25;Isabella;Rossi;Innovare;Italy;Rome;Europe/Rome;Italian;no;isabella.rossi@innovare.it;lead;0
+26;Lars;Müller;HelixBau;Germany;Hannover;Europe/Berlin;German;yes;lars.mueller@helixbau.de;lead;0
+27;Anna;Schulz;Corelogic;Germany;Berlin;Europe/Berlin;;no;anna.schulz@corelogic.de;lead;0
+28;Maximilian;Becker;Techne;Germany;Nuremberg;Europe/Berlin;;yes;maximilian.becker@techne.de;customer;1920
+29;Grace;Wilson;Redline;United Kingdom;Bristol;Europe/London;English;yes;grace.wilson@redline.co.uk;lead;0
+30;Simone;Martins;InovaBrasil;Brazil;Brasília;America/Sao_Paulo;Portuguese_BR;yes;;sales-qualified;0
+31;Andreas;Hofer;Datacircle;Austria;Wiener Neustadt;Europe/Vienna;German;yes;andreas.hofer@datacircle.at;lead;0
+32;Hannah;Lehmann;Luminex;Germany;Munich;Europe/Berlin;;yes;hannah.lehmann@luminex.de;customer;2980
+33;Claire;Dupont;CielBleu;France;Toulouse;Europe/Paris;;yes;claire.dupont@cielbleu.fr;lead;0
+34;Eric;Robinson;Nextify;United States;Dallas;America/Chicago;;no;eric.robinson@nextify.us;lead;0
+35;Janine;Meier;Agilica;Germany;Dortmund;Europe/Berlin;German;yes;janine.meier@agilica.de;lead;0
+36;Marcel;Schmidt;AlpenWorks;Switzerland;Lugano;Europe/Zurich;German;;;customer;31500
+37;Patricia;Evans;SkyNetics;United Kingdom;Glasgow;Europe/London;English;yes;patricia.evans@skynetics.co.uk;lead;0
+38;Eva;Steiner;Futurelytics;Austria;Salzburg;;German;yes;eva.steiner@futurelytics.at;lead;0
+39;Daniel;Blum;Infinitum;Germany;Dresden;;German;no;daniel.blum@infinitum.de;marketing-qualified;0
+40;Natalia;Kaczmarek;DataSmart;Poland;Wroclaw;;Polish;yes;natalia.kaczmarek@datasmart.pl;lead;0
+41;Alex;Harris;Corelogic;United States;Los Angeles;;English;yes;;marketing-qualified;0
+42;Peter;Bailey;Redline;United Kingdom;Leeds;Europe/London;English;no;peter.bailey@redline.co.uk;lead;0
+43;Leonie;Weiss;Agilica;Germany;Bonn;Europe/Berlin;German;no;leonie.weiss@agilica.de;lead;0
+44;Ramiro;Oliveira;Visiomind;Brazil;Fortaleza;America/Fortaleza;Portuguese_BR;yes;ramiro.oliveira@visiomind.com.br;customer;2330
+45;Anna;Lund;Scanditec;Sweden;Gothenburg;;Swedish;yes;anna.lund@scanditec.se;lead;0
+46;Isabel;Garcia;SolucionesNova;Spain;Valencia;Europe/Madrid;Spanish;no;isabel.garcia@solucionesnova.es;lead;0
+47;Samuel;Krüger;HelixBau;Germany;Cologne;Europe/Berlin;German;no;samuel.krueger@helixbau.de;sales-qualified;0
+48;Marie;Fontaine;CielBleu;France;Nice;;French;yes;marie.fontaine@cielbleu.fr;customer;540
+49;Jan;Lang;Datacircle;Austria;Innsbruck;Europe/Vienna;German;yes;jan.lang@datacircle.at;lead;0
+50;Martina;Fuchs;AlpenWorks;Switzerland;St. Gallen;Europe/Zurich;German;no;martina.fuchs@alpenworks.ch;lead;0
+51;Aaron;Murphy;Nextify;United States;Seattle;;English;no;;lead;0
+52;Adriana;Moretti;Innovare;Italy;Turin;;Italian;no;adriana.moretti@innovare.it;marketing-qualified;0
+53;Max;Brandt;Corelogic;Germany;Berlin;Europe/Berlin;German;no;max.brandt@corelogic.de;lead;0
+54;Nadine;Walter;Luminex;Germany;Karlsruhe;Europe/Berlin;German;yes;;lead;0
+55;Miguel;Hernandez;SolucionesNova;Spain;Seville;Europe/Madrid;Spanish;yes;;lead;0
+56;Olga;Kowal;DataSmart;Poland;Poznan;;Polish;yes;olga.kowal@datasmart.pl;lead;0
+57;Fabian;Schwarz;Infinitum;Germany;Berlin;;German;yes;fabian.schwarz@infinitum.de;churned;700
+58;Chiara;Conti;Innovare;Italy;Bologna;Europe/Rome;Italian;yes;chiara.conti@innovare.it;customer;8450
+59;Jonas;Martens;Agilica;Germany;Kiel;Europe/Berlin;German;yes;jonas.martens@agilica.de;lead;0
+60;Emily;Nguyen;VistaCore;Singapore;Singapore;Asia/Singapore;English;yes;emily.nguyen@vistacore.sg;customer;2890
+61;Manuel;Schuster;Luminex;Germany;Erfurt;Europe/Berlin;German;yes;;lead;0
+62;Oscar;Berg;Scanditec;Sweden;Malmo;Europe/Stockholm;Swedish;yes;;lead;0
+63;Maria;Hernandez;SolucionesNova;Spain;Barcelona;Europe/Madrid;Spanish;yes;maria.hernandez@solucionesnova.es;marketing-qualified;0
+64;Alexander;Wolf;HelixBau;Germany;Berlin;Europe/Berlin;German;yes;alexander.wolf@helixbau.de;lead;0
+65;Patrik;Olsen;NordicNow;Sweden;Uppsala;Europe/Stockholm;Swedish;no;patrik.olsen@nordicnow.se;lead;0
+66;Patrik;Olsen;NordicNow;Sweden;Uppsala;Europe/Stockholm;Swedish;yes;;lead;0
+67;Andrea;Romano;Innovare;Italy;Florence;Europe/Rome;Italian;yes;andrea.romano@innovare.it;lead;0
+68;Andreia;Ferreira;Visiomind;Brazil;Salvador;America/Bahia;Portuguese_BR;no;andreia.ferreira@visiomind.com.br;lead;0
+69;Stefan;Graf;Infinitum;Germany;Hamburg;Europe/Berlin;German;yes;stefan.graf@infinitum.de;customer;4180
+70;Anna;Müller;HelixBau;Germany;Stuttgart;Europe/Berlin;German;yes;anna.mueller@helixbau.de;churned;23000
+71;Olivia;Smith;SkyNetics;United Kingdom;London;;English;yes;olivia.smith@skynetics.co.uk;lead;0
+72;Emma;Larsson;NordicNow;Sweden;Stockholm;Europe/Stockholm;Swedish;yes;;lead;0
+73;Philipp;Schneider;AlpenWorks;Switzerland;Zurich;Europe/Zurich;German;yes;philipp.schneider@alpenworks.ch;lead;0
+74;Stefanie;Huber;Luminex;Germany;Regensburg;Europe/Berlin;German;yes;;lead;0
+75;Clara;Rossi;Innovare;Italy;Venice;Europe/Rome;Italian;yes;;lead;0
+76;David;Smith;Corelogic;United States;Miami;America/New_York;;no;david.smith@corelogic.us;lead;0
+77;Carla;Sousa;InovaBrasil;Brazil;Curitiba;America/Sao_Paulo;;yes;carla.sousa@inovabrasil.com.br;customer;7200
+78;Manuela;Weiss;Techne;Germany;Hamburg;Europe/Berlin;German;yes;manuela.weiss@techne.de;customer;810
+79;Samuel;Lindberg;Scanditec;Sweden;Helsingborg;Europe/Stockholm;Swedish;yes;samuel.lindberg@scanditec.se;lead;0
+80;Nils;Schulz;Agilica;Germany;Berlin;Europe/Berlin;German;yes;nils.schulz@agilica.de;lead;0
+81;Sofia;Roman;SolucionesNova;Spain;Bilbao;Europe/Madrid;Spanish;yes;sofia.roman@solucionesnova.es;lead;0
+82;Stefan;Gruber;Datacircle;Austria;St. Pölten;Europe/Vienna;German;yes;stefan.gruber@datacircle.at;customer;5400
+83;Tomasz;Nowicki;Softpoint;Poland;Szczecin;Europe/Warsaw;;yes;tomasz.nowicki@softpoint.pl;customer;0
+84;Lucas;Stark;Futurelytics;Germany;Frankfurt;Europe/Berlin;German;yes;lucas.stark@futurelytics.de;customer;7300
+85;Emilia;Brandt;AlpenWorks;Switzerland;Bern;Europe/Zurich;German;yes;;customer;9100
+86;Alice;Brown;SkyNetics;United Kingdom;Brighton;Europe/London;English;yes;alice.brown@skynetics.co.uk;customer;49000
+87;Philipp;Hofer;Datacircle;Austria;Vienna;Europe/Vienna;German;yes;philipp.hofer@datacircle.at;customer;610
+88;Noah;Krüger;HelixBau;Germany;Hamburg;Europe/Berlin;German;no;noah.krueger@helixbau.de;lead;0
+89;Paul;Anderson;Nextify;United States;Boston;America/New_York;English;yes;paul.anderson@nextify.us;customer;17300
+90;Benedikt;Schuster;AlpenWorks;Switzerland;Zurich;Europe/Zurich;;;;customer;12500
+91;Lina;Fischer;Infinitum;Germany;Munich;Europe/Berlin;German;yes;lina.fischer@infinitum.de;churned;1200
+92;Pat;Olsen;NordicNow;Sweden;Uppsala;Europe/Stockholm;Swedish;yes;patrik.olsen@nordicnow.se;lead;0
+93;Pascal;Steiner;AlpenWorks;Switzerland;Zug;Europe/Zurich;German;yes;pascal.steiner@alpenworks.ch;lead;0
+94;Lina;Richter;Luminex;Germany;Augsburg;Europe/Berlin;German;yes;;lead;0
+95;Ajay;Reddy;BlueWave;India;Hyderabad;;English;yes;ajay.reddy@bluewave.in;lead;0
+96;Anke;Mayer;Agilica;Germany;Berlin;Europe/Berlin;;yes;anke.mayer@agilica.de;churned;12000
+97;Sarah;Ngwenya;DataBridge;South Africa;Johannesburg;Africa/Johannesburg;English;yes;sarah.ngwenya@databridge.co.za;customer;41200
+98;Monica;Silva;InovaBrasil;Brazil;Recife;America/Recife;Portuguese_BR;yes;monica.silva@inovabrasil.com.br;customer;9900
+99;Silvia;Ribeiro;Visiomind;Brazil;Porto Alegre;America/Sao_Paulo;Portuguese_BR;yes;silvia.ribeiro@visiomind.com.br;churned;32100
+100;Lukas;Lehner;Futurelytics;Austria;Villach;Europe/Vienna;German;yes;lukas.lehner@futurelytics.at;customer;0
